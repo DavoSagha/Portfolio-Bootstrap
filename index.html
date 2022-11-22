@@ -1,53 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Metadatos -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="David Saghatelyan">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de desarrollo web de David Saghatelyan">
-    <meta name="keywords" content="HTML, CSS, JAVASCRIPT"> 
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="David Saghatelyan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de desarrollo web de David Saghatelyan"
+    />
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT" />
     <!-- Titulo -->
     <title>David Saghatelyan | Desarrollador Web Trainee</title>
     <!-- FavIcon -->
-    <link rel="icon" type= "image/x-icon" href="imagenes/code.svg">
+    <link rel="icon" type="image/x-icon" href="imagenes/code.svg" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <!-- CSS -->
-    <link href="style.css" rel="stylesheet">
-
+    <link href="style.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Dirt&family=Rubik+Microbe&display=swap"
+      rel="stylesheet"
+    />
   </head>
-<body>
-  <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#"><img src="imagenes/code.svg" width="50" alt="Logo de la pagina web"></a>
-        <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Testimonios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Contacto</a>
-          </li>
-        </ul>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="imagenes/code.svg"
+              width="50"
+              alt="Logo de la pagina web"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div></div></nav>
+    <!-- Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador"
+          src="imagenes/davofacha.jpg"
+          alt="Foto"
+        />
+        <h1>Hola, soy David Saghatelyan</h1>
+        <h2>Desarrollador Web</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="./imagenes/hero-inferior.svg"
+          alt="HTML, CSS, JS, REACT"
+        />
+      </div>
+    </section>
+    <!-- Sobre mi -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a David</h2>
+        <p class="seccion-texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+          suscipit eaque esse consequuntur accusamus iusto illum sint porro
+          necessitatibus ea! Corporis pariatur nisi inventore ratione quod
+          quaerat eum veritatis ut?
+        </p>
+      </div>
+    </section>
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Loreperiam, minus totamfdsdddddddddddddd
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque dolore odit alias quod omnis? Aperiam, minus totam
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">HTML</span>
+                <span class="badge text-bg-primary">CSS</span>
+                <span class="badge text-bg-primary">JavaScript</span>
+                <span class="badge text-bg-primary">React</span>
+              </div>
+            </p>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque dolore odit alias quod omnis? Aperiam, minus totam
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+      <h3 class="seccion-descripcion">Estos son mis proyectos</h3>
+    <!-- Galeria proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="./imagenes/facebook.jpg" alt="Facebook">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DavoSagha" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="./imagenes/facebook.jpg" alt="Facebook">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DavoSagha" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="./imagenes/facebook.jpg" alt="Facebook">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DavoSagha" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
+    <a href="https://github.com/DavoSagha" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">Ver mas proyectos <i class="bi bi-arrow-right-circle-fill"></i></button>
+    </a>
+    </section>
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">React</li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Node Js</li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">C/C++</li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.linkedin.com/in/david-saghatelyan/" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info" >Ver mas articulos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button></a>
+      
+    </section>
+    <!-- Testimmonios -->
+    <section class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de los testimonios</h3>
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="container">
+            <img src="imagenes/facebook.jpg" class="testimonio-imagen rounded-circle" alt="Foto cliente">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae explicabo velit nulla deserunt nemo temporibus quibusdam molestias ex quos non vel asperiores quia optio sequi quisquam debitis doloribus, a est.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Gino</p>
+              <p class="cargo">Gerente de proyeyectos en desarrollo web</p>
+            </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img src="imagenes/facebook.jpg" class="testimonio-imagen rounded-circle" alt="Foto cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae explicabo velit nulla deserunt nemo temporibus quibusdam molestias ex quos non vel asperiores quia optio sequi quisquam debitis doloribus, a est.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyeyectos en desarrollo web</p>
+              </div>
+             </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img src="imagenes/facebook.jpg" class="testimonio-imagen rounded-circle" alt="Foto cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae explicabo velit nulla deserunt nemo temporibus quibusdam molestias ex quos non vel asperiores quia optio sequi quisquam debitis doloribus, a est.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyeyectos en desarrollo web</p>
+              </div>
+             </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
 
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
